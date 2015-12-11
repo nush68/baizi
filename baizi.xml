@@ -14,7 +14,7 @@
         </value>
         <next>
           <block type="oled_drawtext" id="209">
-            <field name="TEXT">My name is Bob.</field>
+            <field name="TEXT"> Hi, my name is Bob.</field>
             <next>
               <block type="led_select" id="119" inline="true">
                 <field name="ACTION">ON</field>
