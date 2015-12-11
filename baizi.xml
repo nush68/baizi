@@ -64,35 +64,26 @@
                                       </block>
                                     </value>
                                     <next>
-                                      <block type="controls_repeat" id="44" inline="true">
-                                        <value name="TIMES">
-                                          <block type="math_number" id="60">
-                                            <field name="NUM">4</field>
+                                      <block type="movement_setmotors" id="18" inline="true">
+                                        <value name="BOTHMOVLEFT">
+                                          <block type="math_number" id="25">
+                                            <field name="NUM">40000</field>
                                           </block>
                                         </value>
-                                        <statement name="DO">
-                                          <block type="movement_setmotors" id="18" inline="true">
-                                            <value name="BOTHMOVLEFT">
-                                              <block type="math_number" id="25">
-                                                <field name="NUM">40000</field>
-                                              </block>
-                                            </value>
-                                            <value name="BOTHMOVRIGHT">
-                                              <block type="math_number" id="26">
-                                                <field name="NUM">40000</field>
-                                              </block>
-                                            </value>
-                                            <next>
-                                              <block type="movement_rightmotor" id="36" inline="true">
-                                                <value name="MOVRIGHT">
-                                                  <block type="math_number" id="37">
-                                                    <field name="NUM">16250</field>
-                                                  </block>
-                                                </value>
-                                              </block>
-                                            </next>
+                                        <value name="BOTHMOVRIGHT">
+                                          <block type="math_number" id="26">
+                                            <field name="NUM">40000</field>
                                           </block>
-                                        </statement>
+                                        </value>
+                                        <next>
+                                          <block type="movement_rightmotor" id="36" inline="true">
+                                            <value name="MOVRIGHT">
+                                              <block type="math_number" id="37">
+                                                <field name="NUM">16250</field>
+                                              </block>
+                                            </value>
+                                          </block>
+                                        </next>
                                       </block>
                                     </next>
                                   </block>
