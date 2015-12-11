@@ -1,32 +1,52 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_repeat" id="44" inline="true" x="-292" y="158">
-    <value name="TIMES">
-      <block type="math_number" id="60">
-        <field name="NUM">4</field>
+  <block type="led_select" id="69" inline="true" x="-288" y="85">
+    <field name="ACTION">ON</field>
+    <value name="LED">
+      <block type="math_number" id="78">
+        <field name="NUM">0</field>
       </block>
     </value>
-    <statement name="DO">
-      <block type="movement_setmotors" id="18" inline="true">
-        <value name="BOTHMOVLEFT">
-          <block type="math_number" id="25">
-            <field name="NUM">40000</field>
-          </block>
-        </value>
-        <value name="BOTHMOVRIGHT">
-          <block type="math_number" id="26">
-            <field name="NUM">40000</field>
+    <next>
+      <block type="led_select" id="70" inline="true">
+        <field name="ACTION">ON</field>
+        <value name="LED">
+          <block type="math_number" id="71">
+            <field name="NUM">5</field>
           </block>
         </value>
         <next>
-          <block type="movement_rightmotor" id="36" inline="true">
-            <value name="MOVRIGHT">
-              <block type="math_number" id="37">
-                <field name="NUM">16250</field>
+          <block type="controls_repeat" id="44" inline="true">
+            <value name="TIMES">
+              <block type="math_number" id="60">
+                <field name="NUM">4</field>
               </block>
             </value>
+            <statement name="DO">
+              <block type="movement_setmotors" id="18" inline="true">
+                <value name="BOTHMOVLEFT">
+                  <block type="math_number" id="25">
+                    <field name="NUM">40000</field>
+                  </block>
+                </value>
+                <value name="BOTHMOVRIGHT">
+                  <block type="math_number" id="26">
+                    <field name="NUM">40000</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="movement_rightmotor" id="36" inline="true">
+                    <value name="MOVRIGHT">
+                      <block type="math_number" id="37">
+                        <field name="NUM">16250</field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </statement>
           </block>
         </next>
       </block>
-    </statement>
+    </next>
   </block>
 </xml>
