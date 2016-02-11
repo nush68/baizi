@@ -127,7 +127,7 @@
                                                             </value>
                                                             <next>
                                                               <block type="oled_drawtext" id="183">
-                                                                <field name="TEXT">STOP LOW RIDING PRANAV</field>
+                                                                <field name="TEXT">STOP LOW- RIDING PRANAV</field>
                                                                 <next>
                                                                   <block type="movement_stop" id="138"></block>
                                                                 </next>
