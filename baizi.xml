@@ -19,7 +19,7 @@
             </value>
             <value name="B">
               <block type="math_number" id="6">
-                <field name="NUM">50</field>
+                <field name="NUM">10</field>
               </block>
             </value>
           </block>
@@ -127,7 +127,7 @@
                                                             </value>
                                                             <next>
                                                               <block type="oled_drawtext" id="34">
-                                                                <field name="TEXT">STOP LOW- RIDING PRANAV</field>
+                                                                <field name="TEXT"></field>
                                                                 <next>
                                                                   <block type="movement_stop" id="35"></block>
                                                                 </next>
