@@ -35,7 +35,7 @@
           <block type="oled_cleardisplay" id="9">
             <next>
               <block type="led_select" id="10" inline="true">
-                <field name="ACTION">FLASH</field>
+                <field name="ACTION">ON</field>
                 <value name="LED">
                   <block type="math_number" id="11">
                     <field name="NUM">1</field>
@@ -51,7 +51,7 @@
                     </value>
                     <next>
                       <block type="led_select" id="14" inline="true">
-                        <field name="ACTION">FLASH</field>
+                        <field name="ACTION">ON</field>
                         <value name="LED">
                           <block type="math_number" id="15">
                             <field name="NUM">4</field>
@@ -67,7 +67,7 @@
                             </value>
                             <next>
                               <block type="led_select" id="18" inline="true">
-                                <field name="ACTION">FLASH</field>
+                                <field name="ACTION">ON</field>
                                 <value name="LED">
                                   <block type="math_number" id="19">
                                     <field name="NUM">5</field>
