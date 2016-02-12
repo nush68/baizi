@@ -19,7 +19,7 @@
             </value>
             <value name="B">
               <block type="math_number" id="6">
-                <field name="NUM">10</field>
+                <field name="NUM">15</field>
               </block>
             </value>
           </block>
@@ -117,7 +117,7 @@
                                                           <block type="oled_setcursor" id="31" inline="true">
                                                             <value name="STARTX">
                                                               <block type="math_number" id="32">
-                                                                <field name="NUM">0</field>
+                                                                <field name="NUM">30</field>
                                                               </block>
                                                             </value>
                                                             <value name="STARTY">
@@ -127,7 +127,7 @@
                                                             </value>
                                                             <next>
                                                               <block type="oled_drawtext" id="34">
-                                                                <field name="TEXT"></field>
+                                                                <field name="TEXT">GET REKT</field>
                                                                 <next>
                                                                   <block type="movement_stop" id="35"></block>
                                                                 </next>
