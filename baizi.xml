@@ -127,7 +127,7 @@
                                                             </value>
                                                             <next>
                                                               <block type="oled_drawtext" id="34">
-                                                                <field name="TEXT">GET REKT</field>
+                                                                <field name="TEXT">TOLD YOU I'D MAKE IT</field>
                                                                 <next>
                                                                   <block type="movement_stop" id="35"></block>
                                                                 </next>
