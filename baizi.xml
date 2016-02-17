@@ -151,7 +151,7 @@
                                                         </value>
                                                         <next>
                                                           <block type="oled_drawtext" id="30">
-                                                            <field name="TEXT">NUSHWORLD</field>
+                                                            <field name="TEXT">SCHIAPERELLI</field>
                                                             <next>
                                                               <block type="oled_setcursor" id="31" inline="true">
                                                                 <value name="STARTX">
