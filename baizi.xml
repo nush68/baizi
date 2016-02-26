@@ -166,7 +166,7 @@
                                                                 </value>
                                                                 <next>
                                                                   <block type="oled_drawtext" id="43">
-                                                                    <field name="TEXT">TOLD YOU I'D MAKE IT</field>
+                                                                    <field name="TEXT">oh no wait, no</field>
                                                                     <next>
                                                                       <block type="movement_stop" id="44"></block>
                                                                     </next>
