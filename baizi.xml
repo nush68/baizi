@@ -1,9 +1,8 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_whileUntil" id="1" inline="false" x="337" y="-30">
-    <field name="MODE">UNTIL</field>
-    <value name="NUMBER">
-      <block type="sensor_button" id="2">
-        <field name="OBJECT">ENTER</field>
+  <block type="controls_repeat" id="110" inline="true" x="430" y="7">
+    <value name="TIMES">
+      <block type="math_number" id="148">
+        <field name="NUM">3</field>
       </block>
     </value>
     <statement name="DO">
@@ -109,48 +108,11 @@
                                                                   <block type="robot_delay" id="45" inline="true">
                                                                     <value name="DELAY">
                                                                       <block type="math_number" id="46">
-                                                                        <field name="NUM">5000</field>
+                                                                        <field name="NUM">2500</field>
                                                                       </block>
                                                                     </value>
                                                                     <next>
-                                                                      <block type="movement_forward" id="48">
-                                                                        <next>
-                                                                          <block type="robot_delay" id="49" inline="true">
-                                                                            <value name="DELAY">
-                                                                              <block type="math_number" id="50">
-                                                                                <field name="NUM">2600</field>
-                                                                              </block>
-                                                                            </value>
-                                                                            <next>
-                                                                              <block type="movement_stop" id="69">
-                                                                                <next>
-                                                                                  <block type="movement_stop" id="79">
-                                                                                    <next>
-                                                                                      <block type="movement_stop" id="80">
-                                                                                        <next>
-                                                                                          <block type="movement_stop" id="81">
-                                                                                            <next>
-                                                                                              <block type="movement_stop" id="82">
-                                                                                                <next>
-                                                                                                  <block type="movement_stop" id="83">
-                                                                                                    <next>
-                                                                                                      <block type="movement_stop" id="84"></block>
-                                                                                                    </next>
-                                                                                                  </block>
-                                                                                                </next>
-                                                                                              </block>
-                                                                                            </next>
-                                                                                          </block>
-                                                                                        </next>
-                                                                                      </block>
-                                                                                    </next>
-                                                                                  </block>
-                                                                                </next>
-                                                                              </block>
-                                                                            </next>
-                                                                          </block>
-                                                                        </next>
-                                                                      </block>
+                                                                      <block type="movement_stop" id="69"></block>
                                                                     </next>
                                                                   </block>
                                                                 </next>
