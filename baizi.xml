@@ -94,6 +94,11 @@
                 <next>
                   <block type="led_select" id="19" inline="true">
                     <field name="ACTION">ON</field>
+                    <value name="LED">
+                      <block type="math_number" id="96">
+                        <field name="NUM">1</field>
+                      </block>
+                    </value>
                     <next>
                       <block type="led_select" id="21" inline="true">
                         <field name="ACTION">ON</field>
