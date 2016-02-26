@@ -64,33 +64,7 @@
               </block>
             </value>
             <statement name="DO0">
-              <block type="movement_forward" id="16">
-                <next>
-                  <block type="robot_delay" id="70" inline="true">
-                    <value name="DELAY">
-                      <block type="math_number" id="20">
-                        <field name="NUM">5000</field>
-                      </block>
-                    </value>
-                    <next>
-                      <block type="movement_forward" id="71">
-                        <next>
-                          <block type="robot_delay" id="72" inline="true">
-                            <value name="DELAY">
-                              <block type="math_number" id="73">
-                                <field name="NUM">2600</field>
-                              </block>
-                            </value>
-                            <next>
-                              <block type="movement_stop" id="106"></block>
-                            </next>
-                          </block>
-                        </next>
-                      </block>
-                    </next>
-                  </block>
-                </next>
-              </block>
+              <block type="movement_forward" id="16"></block>
             </statement>
             <statement name="ELSE">
               <block type="oled_cleardisplay" id="18">
