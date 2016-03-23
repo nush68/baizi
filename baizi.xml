@@ -71,7 +71,7 @@
                                         </value>
                                         <next>
                                           <block type="oled_drawtext" id="20">
-                                            <field name="TEXT">I MADE IT TO </field>
+                                            <field name="TEXT">HI</field>
                                             <next>
                                               <block type="oled_setcursor" id="21" inline="true">
                                                 <value name="STARTX">
@@ -86,7 +86,7 @@
                                                 </value>
                                                 <next>
                                                   <block type="oled_drawtext" id="24">
-                                                    <field name="TEXT">SCHIAPERELLI</field>
+                                                    <field name="TEXT">MY NAME</field>
                                                     <next>
                                                       <block type="oled_setcursor" id="25" inline="true">
                                                         <value name="STARTX">
@@ -101,7 +101,7 @@
                                                         </value>
                                                         <next>
                                                           <block type="oled_drawtext" id="28">
-                                                            <field name="TEXT">oh no wait, no</field>
+                                                            <field name="TEXT">IS BOB</field>
                                                             <next>
                                                               <block type="movement_forward" id="29">
                                                                 <next>
