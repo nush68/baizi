@@ -64,7 +64,7 @@
                                     </value>
                                     <next>
                                       <block type="oled_drawtext" id="20">
-                                        <field name="TEXT">HI</field>
+                                        <field name="TEXT">I MADE TO</field>
                                         <next>
                                           <block type="oled_setcursor" id="21" inline="true">
                                             <value name="STARTX">
@@ -79,7 +79,7 @@
                                             </value>
                                             <next>
                                               <block type="oled_drawtext" id="24">
-                                                <field name="TEXT">MY NAME</field>
+                                                <field name="TEXT">SCHIAPERELLI</field>
                                                 <next>
                                                   <block type="oled_setcursor" id="25" inline="true">
                                                     <value name="STARTX">
@@ -94,7 +94,7 @@
                                                     </value>
                                                     <next>
                                                       <block type="oled_drawtext" id="28">
-                                                        <field name="TEXT">IS BOB</field>
+                                                        <field name="TEXT">OH WAIT, NO</field>
                                                         <next>
                                                           <block type="movement_forward" id="29">
                                                             <next>
@@ -112,8 +112,17 @@
                                                                       </block>
                                                                     </value>
                                                                     <next>
-                                                                      <block type="multimedia_playwav" id="33">
-                                                                        <field name="WAV">beep.w</field>
+                                                                      <block type="controls_repeat" id="42" inline="true">
+                                                                        <value name="TIMES">
+                                                                          <block type="math_number" id="58">
+                                                                            <field name="NUM">6</field>
+                                                                          </block>
+                                                                        </value>
+                                                                        <statement name="DO">
+                                                                          <block type="multimedia_playwav" id="33">
+                                                                            <field name="WAV">beep.w</field>
+                                                                          </block>
+                                                                        </statement>
                                                                         <next>
                                                                           <block type="movement_stop" id="32"></block>
                                                                         </next>
