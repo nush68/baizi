@@ -113,7 +113,7 @@
                                                                     </value>
                                                                     <next>
                                                                       <block type="multimedia_playwav" id="33">
-                                                                        <field name="WAV">beep.w</field>
+                                                                        <field name="WAV">explosion.w</field>
                                                                         <next>
                                                                           <block type="movement_stop" id="32"></block>
                                                                         </next>
