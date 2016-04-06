@@ -119,12 +119,8 @@
                                                                           </block>
                                                                         </value>
                                                                         <next>
-                                                                          <block type="movement_stop" id="32">
-                                                                            <next>
-                                                                              <block type="multimedia_playwav" id="33">
-                                                                                <field name="WAV">beep.w</field>
-                                                                              </block>
-                                                                            </next>
+                                                                          <block type="multimedia_playwav" id="33">
+                                                                            <field name="WAV">beep.w</field>
                                                                           </block>
                                                                         </next>
                                                                       </block>
@@ -161,5 +157,8 @@
         </next>
       </block>
     </statement>
+    <next>
+      <block type="movement_stop" id="32"></block>
+    </next>
   </block>
 </xml>
