@@ -112,10 +112,19 @@
                                                                       </block>
                                                                     </value>
                                                                     <next>
-                                                                      <block type="movement_stop" id="32">
+                                                                      <block type="robot_delay" id="34" inline="true">
+                                                                        <value name="DELAY">
+                                                                          <block type="math_number" id="35">
+                                                                            <field name="NUM">2500</field>
+                                                                          </block>
+                                                                        </value>
                                                                         <next>
-                                                                          <block type="multimedia_playwav" id="33">
-                                                                            <field name="WAV">beep.w</field>
+                                                                          <block type="movement_stop" id="32">
+                                                                            <next>
+                                                                              <block type="multimedia_playwav" id="33">
+                                                                                <field name="WAV">beep.w</field>
+                                                                              </block>
+                                                                            </next>
                                                                           </block>
                                                                         </next>
                                                                       </block>
