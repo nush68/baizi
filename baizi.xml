@@ -114,7 +114,7 @@
                                                                     <next>
                                                                       <block type="movement_stop" id="32">
                                                                         <next>
-                                                                          <block type="multimedia_playwav" id="39">
+                                                                          <block type="multimedia_playwav" id="33">
                                                                             <field name="WAV">beep.w</field>
                                                                           </block>
                                                                         </next>
